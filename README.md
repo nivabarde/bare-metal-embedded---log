@@ -10,7 +10,7 @@ Each week pairs a write-up on my Substack with the actual working code and commi
 
 |Week|Topic|Post|Code|
 |-|-|-|-|
-|1|Toolchain setup, documentation, memory-mapped I/O, first GPIO blink via direct registers|[Post](your-link)|[week01-toolchain](./week01-toolchain)|
+|1|Toolchain setup, documentation, memory-mapped I/O, first GPIO blink via direct registers|[Post](your-link)|\[week1-led-toggle](./week1-led-toggle)|
 
 ## Tools
 
