@@ -1,8 +1,7 @@
-\# Week 1 — Toolchain Setup + First GPIO Blink
+ Week 1 — Toolchain Setup + First GPIO Blink
 
 
-
-\## What this does
+ What this does
 
 Sets up the bare-metal STM32 toolchain (STM32CubeIDE, no HAL, no CubeMX-generated
 
@@ -12,7 +11,7 @@ addresses for RCC and GPIOA registers.
 
 
 
-\## What I learned / what broke
+What I learned / what broke
 
 \- \[Replace this line with what actually happened — e.g. "LED didn't turn on at
 
@@ -24,7 +23,7 @@ addresses for RCC and GPIOA registers.
 
 
 
-\## Concepts covered
+ Concepts covered
 
 \- Toolchain setup (compiler, debugger, IDE vs. HAL distinction)
 
@@ -37,8 +36,7 @@ addresses for RCC and GPIOA registers.
 \- Direct register access using #define + volatile pointers
 
 
-
-\## Reference
+ Reference
 
 \- \[Your exact MCU, e.g. STM32F401RE] Reference Manual — GPIO chapter
 
