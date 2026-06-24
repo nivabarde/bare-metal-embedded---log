@@ -1,14 +1,18 @@
-\# Bare-Metal Embedded C — Learning Log
+# Bare-Metal Embedded C — Learning Log
 
+Documenting my progress through bare-metal ARM Cortex-M development on an STM32 Nucleo board — no HAL, no CubeMX-generated code, just the datasheet, reference manual, and direct register access.
 
+Each week pairs a write-up on my Substack with the actual working code and commit history here.
 
-Documenting my progress through bare-metal ARM Cortex-M development (no HAL, direct register access).
+📝 Substack: [your substack link]
 
+## Progress
 
+| Week | Topic | Post | Code |
+|------|-------|------|------|
+| 1 | Toolchain setup, documentation, memory-mapped I/O, first GPIO blink via direct registers | [Post](your-link) | [week01-toolchain](./week01-toolchain) |
 
-| Week | Topic           | Substack Post | Code                                   |
-
-|------|-----------------|---------------|----------------------------------------|
-
-| 1    | Toolchain setup | \_coming soon\_ | \[week01-toolchain](./week01-toolchain) |
-
+## Tools
+- Board: Nucleo - F411RE, STM32F4
+- IDE/Toolchain: STM32CubeIDE
+- No HAL — all peripheral access via manually defined registers/structs
