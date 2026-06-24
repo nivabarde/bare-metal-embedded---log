@@ -44,7 +44,4 @@ What I learned / what broke
 
 
 
-\## Full write-up
-
-\[Post 1: Registers, Not Magic](your-substack-link-here)
 
