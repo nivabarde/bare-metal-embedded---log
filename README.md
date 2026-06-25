@@ -11,7 +11,7 @@ build on each other week over week.
 📝 Substack: [Bare Metal Embedded Log](https://nivabarde.substack.com)
 
 ## Tools
-- Board: [your exact Nucleo board, e.g. Nucleo-F401RE]
+- Board: Nucleo-F411RE (STM32F411RET6)
 - IDE/Toolchain: STM32CubeIDE
 - No HAL — all peripheral access via manually defined registers/structs
 
@@ -20,3 +20,4 @@ build on each other week over week.
 | Week | Topic | Post | Code |
 |------|-------|------|------|
 | 1 | Registers, Not Magic — toolchain setup, documentation, memory-mapped I/O, first GPIO blink via direct registers | [Post](https://nivabarde.substack.com/p/bare-metal-embedded-led-toggle) | [week1-led-toggle](./week1-led-toggle) |
+| 2 | Structural Abstraction — mapping peripheral registers to C structures, memory boundary alignments, and modular code organization | [Post](https://nivabarde.substack.com/p/structural-led-toggle) | [week2-led-toggle-struct](./week2-led-toggle-struct) |
