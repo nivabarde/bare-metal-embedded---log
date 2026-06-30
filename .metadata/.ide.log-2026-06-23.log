@@ -1,0 +1,15 @@
+2026-06-23 01:39:13,896 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out
+2026-06-23 01:39:15,973 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out
+2026-06-23 18:28:02,595 [INFO] Activator:176 - 
+
+
+2026-06-23 18:28:02,599 [INFO] Activator:177 - !SESSION log4j initialized
+2026-06-23 18:28:11,252 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2026-06-23 18:28:13,974 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out
+2026-06-23 20:39:27,720 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out
+2026-06-23 20:41:55,443 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2026-06-23 20:41:55,453 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2026-06-23 20:41:55,455 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2026-06-23 20:45:23,847 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out
+2026-06-23 20:45:25,858 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out
+2026-06-23 20:45:28,679 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out

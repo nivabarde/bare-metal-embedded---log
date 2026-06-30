@@ -1,0 +1,17 @@
+20:45:18 **** Incremental Build of configuration Debug for project 15_input_interrupt ****
+make -j14 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DSTM32 -DSTM32F4 -DSTM32F411RETx -DSTM32F411xE -c -I../Inc -I"C:/Users/NIVA/Downloads/stm32_baremetal/F4_chip_headers/CMSIS/Device/ST/STM32F4xx/Include" -I"C:/Users/NIVA/Downloads/stm32_baremetal/F4_chip_headers/CMSIS/Include" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "15_input_interrupt.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\NIVA\Downloads\stm32_baremetal\15_input_interrupt\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="15_input_interrupt.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 15_input_interrupt.elf
+ 
+arm-none-eabi-size  15_input_interrupt.elf 
+arm-none-eabi-objdump -h -S 15_input_interrupt.elf  > "15_input_interrupt.list"
+   text	   data	    bss	    dec	    hex	filename
+   5516	     92	   1900	   7508	   1d54	15_input_interrupt.elf
+Finished building: default.size.stdout
+ 
+Finished building: 15_input_interrupt.list
+ 
+
+20:45:20 Build Finished. 0 errors, 0 warnings. (took 1s.959ms)
+

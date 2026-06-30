@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;11_systick-delay&apos; to &apos;11_systick_delay&apos;" description="Rename resource &apos;11_systick-delay&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/11_systick-delay" name="11_systick_delay" stamp="1781450744459" updateReferences="true"/>
+</session>
